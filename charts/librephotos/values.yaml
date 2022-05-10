@@ -149,7 +149,7 @@ cronjob:
     # -- Annotations for the cronjog
     annotations: {}
     # -- Cronjob schedule
-    schedule: "0 * * * *"
+    schedule: "0 */12 * * *"
     # -- concurrency policy, Forbid as default, to avoid running two scans
     concurrencyPolicy: Forbid
     # -- suspension is enabled, to avoid scheduling waiting jobs while scan takes hours!
